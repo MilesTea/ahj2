@@ -1,0 +1,24 @@
+.hello {
+    color: red;
+  }
+
+.field {
+    margin: 0 auto;
+    width: 75%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cell {
+    aspect-ratio : 1 / 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.goblin {
+    background-image: url("goblin.png");
+}
